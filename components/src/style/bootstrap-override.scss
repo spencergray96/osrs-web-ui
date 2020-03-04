@@ -1,0 +1,19 @@
+// Colors
+
+$black: black;
+$white: white;
+
+$borderBrown: #382418;
+$limeGreen: #90c040;
+
+$theme-colors: (
+        "black": $black,
+        "white": $white,
+
+        "borderBrown": $borderBrown,
+        "limeGreen": $limeGreen,
+);
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+

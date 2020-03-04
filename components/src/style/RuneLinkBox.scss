@@ -1,0 +1,21 @@
+@import "./bootstrap-override.scss";
+
+.rune-link-box {
+  border: 2px solid $borderBrown;
+  background-color: black;
+  padding: 3px;
+  font-size: 1.3em;
+  position: relative;
+}
+
+// TODO move the actual text styles to an h3 tag
+.rune-link-box-title {
+  position: absolute;
+  color: $white;
+  font-size: 1.3em;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: -14px;
+  text-align: center;
+}
